@@ -46,5 +46,8 @@ Here are some key Outlook automation capabilities handled via Python and Outlook
 ---
 
 > 💡 **Tip1:** Use `win32com.client` in Python to interact with Outlook objects such as `MailItem`, `Namespace`, and `MAPIFolder`.
+
+---
+
 > 💡 **Tip2:** Use `os.startfile('outlook')` from the os library in Python to ensure the Outlook application is properly initialized and synchronized before sending emails. Sometimes, emails sent using email_object.Send() may get stuck in the Outbox if Outlook isn’t fully synced. Launching Outlook via os.startfile('outlook') helps avoid this issue by ensuring the client is active and connected.
 
