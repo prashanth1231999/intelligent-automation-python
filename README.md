@@ -37,11 +37,8 @@ Here are some key Outlook automation capabilities handled via Python and Outlook
 
 ---
 
-### 👥 6. Reading Emails from Outlook Folder 
-- Access emails from **Inbox (Any Other Folder)**.
-- Filter Emails through Subject, Body Content
-- Save Attachments of Emails 
-- Extracting To Address List
+### 👥 6. 
+- 
 
 ---
 
